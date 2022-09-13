@@ -1,0 +1,14 @@
+.taskInput{
+    background-color: blue;
+    height: 50px;
+    width: 50%;
+    padding-top: 15px;
+    display: flex;
+    
+    
+}
+.inputCont{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
