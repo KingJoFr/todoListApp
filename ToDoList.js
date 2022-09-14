@@ -1,4 +1,8 @@
 function todoAdd() {
-  var taskInput = document.getElementById("task").value;
-  document.getElementById("todoList").innerHTML = taskInput;
+  const listEl = document.createElement("p");
+  const taskText = document.createTextNode(
+    document.getElementById("task").value
+  );
+  listEl.appendChild(taskText);
+  document.getElementById("todoList").appendChild(listEl);
 }
